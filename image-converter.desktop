@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/*;
+Actions=runImageConverter;
+
+[Desktop Action runImageConverter]
+Name=Converter Imagem...
+Icon=document-export
+Exec=/home/ney/.local/bin/image-converter.sh %F
