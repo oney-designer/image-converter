@@ -18,7 +18,7 @@ if [ "$#" -eq 0 ]; then
 fi
 
 # Lista de formatos de saída populares.
-formats=("png" "jpg" "webp" "avif" "gif" "bmp" "tiff")
+formats=("png" "jpg" "webp" "avif" "jxl" "gif" "bmp" "tiff")
 
 # Pede ao usuário para escolher o formato de saída.
 output_format=$(kdialog --combobox "Converter para o formato:" "${formats[@]}" --title "Escolha o Formato de Saída")
